@@ -1,6 +1,6 @@
 //chiedi come si chiama
- const name = prompt ("Come ti chiami?")
- console.log (name)
+ const firstName = prompt ("Come ti chiami?")
+ console.log (firstName)
 
  //chiedi il cognome
 
@@ -13,5 +13,7 @@
  const color = prompt ("Qual'è il tuo colore preferito?")
  console.log (color)
 
+ 
 
- document.getElementById ('Gaia').innerHTML="Gaia"+"Nacheli"+"giallo"+"21"
+
+ document.getElementById ('Gaia').innerHTML= firstName + lastname + color + "21"
